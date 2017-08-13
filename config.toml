@@ -1,0 +1,36 @@
+baseurl = "http://coffeenet.rocks/"
+languageCode = "en-us"
+title = "CoffeeNet"
+theme = "minimal"
+
+[params]
+    author = "Tobias Schneider"
+    description = "... your framework for a distributed landscape"
+    githubUsername = "#derTobsch"
+    accent = "red"
+    showBorder = false
+    showFooter = false
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "solarized-dark"
+    highlightLanguages = ["java", "go", "haskell", "kotlin", "scala", "swift"]
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "https://github.com/CoffeeNet/"
+    name = "github"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://twitter.com/CoffeeNetToGo/"
+    name = "twitter"
+    weight = 2
