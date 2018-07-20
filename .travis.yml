@@ -15,7 +15,7 @@ before_install:
   - openssl aes-256-cbc -K $encrypted_113f435026cc_key -iv $encrypted_113f435026cc_iv -in coffeenet_release_dude.enc -out coffeenet_release_dude -d
 
 install:
-  - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.36.1/hugo_0.36.1_Linux-64bit.deb
+  - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.44/hugo_0.44_Linux-64bit.deb
   - sudo dpkg -i /tmp/hugo.deb
 
 before_script:
