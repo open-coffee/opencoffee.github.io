@@ -16,7 +16,7 @@ hugo server --watch --buildDrafts
 and serve go to [http://localhost:1313][url:localhost].
 
 
-[img:logo]: ./static/img/coffenet_logo.png "CoffeeNet Logo"
+[img:logo]: static/img/logo.png "CoffeeNet Logo"
 [url:hugo]: https://gohugo.io/
 [url:travis]: https://travis-ci.org/coffeenet/coffeenet.github.io
 [url:localhost]: http://localhost:1313

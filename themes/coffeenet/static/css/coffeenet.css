@@ -1,0 +1,84 @@
+.coffeenet--navbar-logo {
+    height: 30px;
+}
+
+.coffeenet--teaser {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    border-radius: 0;
+    background-color: #4da97f;
+    padding-top: 10vh;
+}
+
+.coffeenet--teaser-bar {
+    width: 30%;
+    max-width: 800px;
+}
+
+.coffeenet--project-grid {
+    /* Grid Fallback */
+    display: flex;
+    flex-wrap: wrap;
+    /* Supports Grid */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(33rem, 1fr));
+    grid-auto-rows: minmax(10rem, auto);
+    grid-gap: 1rem .5rem;
+    gap: 1rem .5rem;
+    padding: 1rem 5rem;
+}
+
+.coffeenet--project-cell {
+    position: relative;
+    /* Flex Fallback */
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    flex: 1 1 20rem;
+    /* Demo-Specific Styles */
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    background: #FAFAFA;
+    border: 1px solid #40404212;
+}
+
+.coffeenet--project-cell-header {
+    padding: 0.3rem;
+    font-size: larger;
+}
+
+.coffeenet--project-cell-header a {
+    color: #404042;
+}
+
+.coffeenet--project-cell-header a:hover {
+    color: #404042;
+    text-decoration: none;
+}
+
+.coffeenet--project-cell-header-img {
+    height: 16px;
+}
+
+.coffeenet--project-cell-content {
+    padding: 0.5rem;
+    margin: 0;
+    flex: 1 0 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: smaller;
+}
+
+.coffeenet--main {
+    background: #FAFAFA;
+    border: 1px solid #40404212;
+    margin: 20px auto 0;
+    padding: 50px;
+    max-width: 800px;
+}
+
+.coffeenet--footer {
+    margin-top: 20px;
+}

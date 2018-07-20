@@ -1,5 +1,4 @@
 node_modules/
 public
-themes/**
 .DS_Store
 .idea
