@@ -3,6 +3,10 @@ sudo: required
 go:
   - "1.10.3"
 
+branches:
+  only:
+  - code
+
 env:
   global:
   - SSH_KEY="coffeenet_release_dude"
