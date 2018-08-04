@@ -2,7 +2,7 @@
 <div class="coffeenet--project-grid">
     {{ range where .Pages.ByTitle.ByWeight "Section" "projects" }}
     <div class="coffeenet--project-cell">
-        <header class="coffeenet--project-cell-header">
+        <div class="coffeenet--project-cell-header">
             <a href="{{ .URL }}">{{ .Title }}</a>
 
             {{ if isset .Params "githuburl" }}
@@ -11,7 +11,7 @@
                      alt="GitHub Logo">
             </a>
             {{ end }}
-        </header>
+        </div>
         <div class="coffeenet--project-cell-content">
             {{ .Summary }}
             {{ if .Truncated }}

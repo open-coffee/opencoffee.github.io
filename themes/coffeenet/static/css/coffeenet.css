@@ -1,45 +1,63 @@
-.coffeenet--navbar-logo {
-    height: 30px;
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* CoffeeNet */
+
+.coffeenet--header {
+    padding: .3rem;
+}
+
+.coffeenet--header-logo {
+    height: 50px;
+    margin-left: 1rem;
 }
 
 .coffeenet--teaser {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    display: grid;
 
-    border-radius: 0;
+    padding: .5rem .5rem 0;
     background-color: #4da97f;
-    padding-top: 10vh;
 }
 
 .coffeenet--teaser-bar {
-    width: 30%;
+    height: 8rem;
     max-width: 800px;
+    margin: 0 auto;
 }
 
 .coffeenet--project-grid {
-    /* Grid Fallback */
-    display: flex;
-    flex-wrap: wrap;
-    /* Supports Grid */
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(33rem, 1fr));
-    grid-auto-rows: minmax(10rem, auto);
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
     grid-gap: 1rem .5rem;
-    gap: 1rem .5rem;
-    padding: 1rem 5rem;
+    padding: 1rem;
 }
 
 .coffeenet--project-cell {
-    position: relative;
-    /* Flex Fallback */
-    margin-left: 0.3rem;
-    margin-right: 0.3rem;
-    flex: 1 1 20rem;
-    /* Demo-Specific Styles */
-    height: 15rem;
+    height: 20rem;
     display: flex;
     flex-direction: column;
+
     background: #FAFAFA;
     border: 1px solid #40404212;
 }
@@ -63,7 +81,7 @@
 }
 
 .coffeenet--project-cell-content {
-    padding: 0.5rem;
+    padding: 1rem;
     margin: 0;
     flex: 1 0 0;
     overflow-x: hidden;
@@ -81,4 +99,8 @@
 
 .coffeenet--footer {
     margin-top: 20px;
+}
+
+.coffeenet--footer p {
+    text-align: center;
 }
