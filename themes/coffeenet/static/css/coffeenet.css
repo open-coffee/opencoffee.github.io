@@ -24,7 +24,7 @@ a:hover {
 
 pre > code {
     display: inline-block;
-    white-space: normal;
+    white-space: pre;
     font-size: smaller;
     padding-left: 20px;
     word-break: break-all;
