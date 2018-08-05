@@ -1,0 +1,13 @@
+{
+  "name": "CoffeeNet Homepage",
+  "short_name": "CoffeeNet",
+  "icons": [{
+    "src": "img/coffeenet_logo.png",
+    "sizes": "250x225",
+    "type": "image/png"
+  }],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF"
+}
