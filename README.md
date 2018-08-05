@@ -13,8 +13,6 @@ If you want to try your changes just generate the site with
 ```bash
 hugo server --watch --buildDrafts
 ```
-and serve go to [http://localhost:1313][url:localhost].
-
 
 [img:logo]: static/img/logo.png "CoffeeNet Logo"
 [url:hugo]: https://gohugo.io/
