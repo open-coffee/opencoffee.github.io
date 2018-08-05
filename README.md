@@ -4,8 +4,8 @@
 
 ![CoffeeNet Logo][img:logo]
 
-The CoffeeNet homepage is generated with [Hugo][url:hugo]. Every
-commit to the `code` branch will be build with [travis-ci][url:travis]
+The CoffeeNet homepage is generated with [Hugo][url:hugo].  
+Every commit to the `code` branch will be build with [travis-ci][url:travis]
 and directly committed and pushed on the `master` branch. 
 
 If you want to try your changes just generate the site with
