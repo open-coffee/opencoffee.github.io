@@ -25,6 +25,8 @@ a:hover {
 code {
     display: inline-block;
     white-space: normal;
+    font-size: smaller;
+    padding-left: 20px;
 }
 
 /* CoffeeNet */
