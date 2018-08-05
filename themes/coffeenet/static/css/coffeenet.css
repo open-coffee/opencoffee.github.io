@@ -22,6 +22,11 @@ a:hover {
     text-decoration: underline;
 }
 
+code {
+    display: inline-block;
+    white-space: normal;
+}
+
 /* CoffeeNet */
 
 .coffeenet--header {
