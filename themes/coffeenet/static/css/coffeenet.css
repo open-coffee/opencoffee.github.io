@@ -27,6 +27,7 @@ code {
     white-space: normal;
     font-size: smaller;
     padding-left: 20px;
+    word-break: break-all;
 }
 
 /* CoffeeNet */
