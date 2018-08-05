@@ -89,7 +89,8 @@ pre > code {
 }
 
 .coffeenet--project-cell-header {
-    padding: 0.3rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
     font-size: larger;
 }
 
@@ -107,9 +108,9 @@ pre > code {
 }
 
 .coffeenet--project-cell-content {
+    flex: 1 0 0;
     padding: 1rem;
     margin: 0;
-    flex: 1 0 0;
     overflow-x: hidden;
     overflow-y: auto;
     font-size: smaller;
