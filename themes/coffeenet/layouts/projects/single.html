@@ -7,10 +7,12 @@
 
 {{ partial "header.html" . }}
 
-{{ partial "teaser.html" . }}
+<main class="coffeenet--main-single">
 
-<main class="coffeenet--main">
+    {{ partial "teaser.html" . }}
+
     {{ .Content }}
+
 </main>
 
 {{ partial "footer.html" . }}

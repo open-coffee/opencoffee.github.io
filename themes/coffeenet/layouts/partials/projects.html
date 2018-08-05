@@ -1,25 +1,27 @@
+<section class="coffeenet--project">
+    <h2>Projects</h2>
+    <div class="coffeenet--project-grid">
+        {{ range where .Pages.ByTitle.ByWeight "Section" "projects" }}
+        <div class="coffeenet--project-cell">
+            <div class="coffeenet--project-cell-header">
+                <a href="{{ .URL }}">{{ .Title }}</a>
 
-<div class="coffeenet--project-grid">
-    {{ range where .Pages.ByTitle.ByWeight "Section" "projects" }}
-    <div class="coffeenet--project-cell">
-        <div class="coffeenet--project-cell-header">
-            <a href="{{ .URL }}">{{ .Title }}</a>
-
-            {{ if isset .Params "githuburl" }}
-            <a href="{{ .Params.githubUrl }}">
-                <img class="coffeenet--project-cell-header-img" src="{{ .Site.BaseURL }}img/GitHub-Mark-32px.png"
-                     alt="GitHub Logo">
-            </a>
-            {{ end }}
-        </div>
-        <div class="coffeenet--project-cell-content">
-            {{ .Summary }}
-            {{ if .Truncated }}
-            <div>
-                <a href="{{ .RelPermalink }}">Read More…</a>
+                {{ if isset .Params "githuburl" }}
+                <a href="{{ .Params.githubUrl }}">
+                    <img class="coffeenet--project-cell-header-img" src="{{ .Site.BaseURL }}img/GitHub-Mark-32px.png"
+                         alt="GitHub Logo">
+                </a>
+                {{ end }}
             </div>
-            {{ end }}
+            <div class="coffeenet--project-cell-content">
+                {{ .Summary }}
+                {{ if .Truncated }}
+                <div>
+                    <a href="{{ .RelPermalink }}">Read More…</a>
+                </div>
+                {{ end }}
+            </div>
         </div>
+        {{ end }}
     </div>
-    {{ end }}
-</div>
+</section>
