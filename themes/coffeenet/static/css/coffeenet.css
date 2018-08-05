@@ -22,7 +22,7 @@ a:hover {
     text-decoration: underline;
 }
 
-code {
+pre > code {
     display: inline-block;
     white-space: normal;
     font-size: smaller;
