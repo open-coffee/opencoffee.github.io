@@ -116,6 +116,10 @@ code {
 }
 
 .coffeenet--main-single {
+    padding: .5rem;
+}
+
+.coffeenet--main-single-inner {
     background: #FAFAFA;
     border: 1px solid #40404212;
     margin: 20px auto 0;
