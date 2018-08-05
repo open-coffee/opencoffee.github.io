@@ -14,7 +14,7 @@ If you want to try your changes just generate the site with
 hugo server --watch --buildDrafts
 ```
 
-[img:logo]: static/img/coffeenet_logo.png "CoffeeNet Logo"
+[img:logo]: themes/coffeenet/static/img/coffeenet_logo.png "CoffeeNet Logo"
 [url:hugo]: https://gohugo.io/
 [url:travis]: https://travis-ci.org/coffeenet/coffeenet.github.io
 [url:localhost]: http://localhost:1313
