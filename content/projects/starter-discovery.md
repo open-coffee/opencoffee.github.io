@@ -1,5 +1,5 @@
 +++
-title = "Starter - Discovery"
+title = "CoffeeNet - Starter Discovery"
 weight = 1
 githubUrl = "https://github.com/coffeenet/coffeenet-starter"
 +++

@@ -1,5 +1,5 @@
 +++
-title = "Starter - Navigation Thymeleaf"
+title = "CoffeeNet - Starter Navigation Thymeleaf"
 weight = 1
 githubUrl = "https://github.com/coffeenet/coffeenet-starter"
 +++

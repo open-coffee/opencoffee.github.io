@@ -1,5 +1,5 @@
 +++
-title = "Auth Server"
+title = "CoffeeNet - Auth Server"
 weight = 2
 githubUrl = "https://github.com/coffeenet/coffeenet-auth"
 +++

@@ -1,5 +1,5 @@
 +++
-title = "Starter - Navigation Javascript"
+title = "CoffeeNet - Starter Navigation Javascript"
 weight = 1
 githubUrl = "https://github.com/coffeenet/coffeenet-starter"
 +++

@@ -1,5 +1,5 @@
 +++
-title = "Config Server"
+title = "CoffeeNet - Config Server"
 weight = 2
 githubUrl = "https://github.com/coffeenet/coffeenet-config-server"
 +++

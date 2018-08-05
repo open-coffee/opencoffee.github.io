@@ -1,5 +1,5 @@
 +++
-title = "Frontpage"
+title = "CoffeeNet - Frontpage"
 weight = 3
 githubUrl = "https://github.com/coffeenet/coffeenet-frontpage"
 +++
