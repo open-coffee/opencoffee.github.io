@@ -1,4 +1,4 @@
-const cacheName = `coffeenet-homepage-${buildTime}`;
+const cacheName = `coffeenet-homepage`;
 const filesToCache = [
     '/',
     '/index.html',
