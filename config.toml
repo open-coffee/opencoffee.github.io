@@ -1,4 +1,4 @@
-baseURL = "http://coffeenet.rocks/"
+baseURL = "https://coffeenet.rocks/"
 languageCode = "en-us"
 title = "CoffeeNet"
 theme = "coffeenet"
