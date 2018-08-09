@@ -6,16 +6,7 @@ const filesToCache = [
     '/css/coffeenet.css',
     '/img/GitHub-Mark-32px.png',
     '/img/coffeenet_logo.png',
-    '/img/element_bar.svg',
-    '/projects/config-server',
-    '/projects/auth-server',
-    '/projects/discovery-server',
-    '/projects/frontpage',
-    '/projects/starter-discovery',
-    '/projects/starter-logging',
-    '/projects/starter-navigation-javascript',
-    '/projects/starter-navigation-thymeleaf',
-    'https://coffeenet.rocks/projects/starter-security'
+    '/img/element_bar.svg'
 ];
 
 self.addEventListener('install', function (e) {
