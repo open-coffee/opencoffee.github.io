@@ -1,6 +1,6 @@
 name = "CoffeeNet"
 description = "Homepage theme of the CoffeeNet"
-homepage = "http://coffeenet.rocks/"
+homepage = "https://coffeenet.rocks/"
 tags = []
 features = []
 min_version = "0.40"
