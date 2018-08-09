@@ -1,3 +1,0 @@
-{
-  "buildTime": "{{ now.Unix }}"
-}

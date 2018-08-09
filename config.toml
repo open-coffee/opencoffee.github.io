@@ -2,13 +2,3 @@ baseURL = "https://coffeenet.rocks/"
 languageCode = "en-us"
 title = "CoffeeNet"
 theme = "coffeenet"
-
-[outputs]
-  page = ["html","json"]
-
-[mediaTypes]
-  [mediaTypes."application/json"]
-    suffix = "json"
-[outputFormats]
-  [outputFormats.JSON]
-    mediaType = "application/json"
