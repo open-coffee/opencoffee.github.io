@@ -1,4 +1,3 @@
-const cacheName = `coffeenet-homepage`;
 const filesToCache = [
     '/',
     '/index.html',
@@ -18,23 +17,33 @@ const filesToCache = [
     '/projects/starter-security/'
 ];
 
-self.addEventListener('install', function (e) {
+let cacheName;
+
+self.addEventListener('install', function (event) {
     console.log('[ServiceWorker] Install');
-    e.waitUntil(
-        caches.open(cacheName).then(function (cache) {
-            console.log('[ServiceWorker] Caching app shell');
-            return cache.addAll(filesToCache);
-        })
+    event.waitUntil(
+
+        fetch('/health/index.json').then(r => r.json())
+            .then(health => {
+                cacheName = `coffeenet-homepage-v${health.buildTime}`;
+                caches.open(cacheName).then(function (cache) {
+                    console.log(`[ServiceWorker] Caching app shell for ${cacheName}`);
+                    return cache.addAll(filesToCache);
+                })
+            })
+            .catch(e =>
+                console.log("[ServiceWorker] Could not retrieve build time information")
+            )
     );
 });
 
-self.addEventListener('activate', function (e) {
+self.addEventListener('activate', function (event) {
     console.log('[ServiceWorker] Activate');
-    e.waitUntil(
+    event.waitUntil(
         caches.keys().then(function (keyList) {
             return Promise.all(keyList.map(function (key) {
                 if (key !== cacheName) {
-                    console.log('[ServiceWorker] Removing old cache', key);
+                    console.log(`[ServiceWorker] Removing old cache '${key}'`);
                     return caches.delete(key);
                 }
             }));
@@ -44,11 +53,11 @@ self.addEventListener('activate', function (e) {
 });
 
 
-self.addEventListener('fetch', function (e) {
-    console.log('[ServiceWorker] Fetch', e.request.url);
-    e.respondWith(
-        caches.match(e.request).then(function (response) {
-            return response || fetch(e.request);
+self.addEventListener('fetch', function (event) {
+    console.log('[ServiceWorker] Fetch', event.request.url);
+    event.respondWith(
+        caches.match(event.request).then(function (response) {
+            return response || fetch(event.request);
         })
     );
 });
