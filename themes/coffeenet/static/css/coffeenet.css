@@ -24,9 +24,15 @@ a:hover {
 
 pre > code {
     display: inline-block;
-    white-space: pre;
+    white-space: pre-wrap;
+    word-break: break-all;
     font-size: smaller;
     padding-left: 20px;
+}
+
+code {
+    display: inline-block;
+    white-space: pre-wrap;
     word-break: break-all;
 }
 
