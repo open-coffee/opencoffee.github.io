@@ -14,12 +14,9 @@
                 {{ end }}
             </div>
             <div class="coffeenet--project-cell-content">
-                {{ .Summary }}
-                {{ if .Truncated }}
-                <div>
-                    <a href="{{ .RelPermalink }}">Read More…</a>
-                </div>
-                {{ end }}
+                {{ replaceRE "<h2.*" "" ( replaceRE "</h1>" "" ( delimit (findRE "</h1>(?:.|\n)*?(<p.*?>(?:.|\n)*?</p>)(?:.|\n)*?<h2.*?>" .Content) "" ) ) | safeHTML }}
+
+                <a href="{{ .RelPermalink }}">Read More…</a>
             </div>
         </div>
         {{ end }}
