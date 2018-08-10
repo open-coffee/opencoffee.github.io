@@ -3,7 +3,7 @@ description = "Homepage theme of the CoffeeNet"
 homepage = "https://coffeenet.rocks/"
 tags = []
 features = []
-min_version = "0.40"
+min_version = "0.43"
 
 [author]
   name = "Tobias Schneider"

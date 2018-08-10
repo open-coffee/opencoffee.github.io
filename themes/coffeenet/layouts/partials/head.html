@@ -12,7 +12,10 @@
 <link rel="stylesheet" href="/css/coffeenet.css"/>
 
 <!-- JS -->
-<script type="text/javascript">
-    const buildTime = '{{ now.Unix }}';
-</script>
-<script src="/js/app.js" async></script>
+{{ $serviceWorkerTemplate := resources.Get "js/service-worker.js" }}
+{{ $serviceWorker := $serviceWorkerTemplate | resources.ExecuteAsTemplate "service-worker.js" . }}
+{{ $serviceWorkerPermalink := $serviceWorker.Permalink }}
+
+{{ $appTemplate := resources.Get "js/app.js" }}
+{{ $app := $appTemplate | resources.ExecuteAsTemplate "js/app.js" (dict "CoffeeNetServiceWorkerUrl" $serviceWorker.Permalink ) }}
+<script src="{{ $app.Permalink }}" async></script>
