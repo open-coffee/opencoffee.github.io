@@ -10,7 +10,7 @@ githubUrl = "https://github.com/coffeenet/coffeenet-frontpage"
 # CoffeeNet Frontpage
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/coffeenet/coffeenet.github.io/code/static/img/coffenet_logo.png" width="256px" alt="CoffeeNet Logo" />
+    <img src="https://raw.githubusercontent.com/coffeenet/coffeenet.github.io/code/static/img/coffeenet_logo.png" width="256px" alt="CoffeeNet Logo" />
 </p>
 
 <p align="center">
