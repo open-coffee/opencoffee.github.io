@@ -1,0 +1,92 @@
+{
+  "projectDescriptions": [
+    {
+      "url": "https://raw.githubusercontent.com/coffeenet/coffeenet-auth/master/README.md",
+      "base": "https://github.com/coffeenet/coffeenet-auth",
+      "path": "content/projects",
+      "name": "auth-server.md",
+      "title": "CoffeeNet - Auth Server",
+      "weight": 2
+    },
+    {
+      "url": "https://raw.githubusercontent.com/coffeenet/coffeenet-discovery/master/README.md",
+      "base": "https://github.com/coffeenet/coffeenet-discovery",
+      "path": "content/projects",
+      "name": "discovery-server.md",
+      "title": "CoffeeNet - Discovery Server",
+      "weight": 2
+    },
+    {
+      "url": "https://raw.githubusercontent.com/coffeenet/coffeenet-config-server/master/README.md",
+      "base": "https://github.com/coffeenet/coffeenet-config-server",
+      "path": "content/projects",
+      "name": "config-server.md",
+      "title": "CoffeeNet - Config Server",
+      "weight": 2
+    },
+    {
+      "url": "https://raw.githubusercontent.com/coffeenet/coffeenet-frontpage/master/README.md",
+      "base": "https://github.com/coffeenet/coffeenet-frontpage",
+      "path": "content/projects",
+      "name": "frontpage.md",
+      "title": "CoffeeNet - Frontpage",
+      "weight": 3
+    },
+    {
+      "url": "https://raw.githubusercontent.com/coffeenet/coffeenet-starter/master/coffeenet-starter-discovery/README.md",
+      "base": "https://github.com/coffeenet/coffeenet-starter",
+      "path": "content/projects",
+      "name": "starter-discovery.md",
+      "title": "CoffeeNet - Starter Discovery",
+      "weight": 1
+    },
+    {
+      "url": "https://raw.githubusercontent.com/coffeenet/coffeenet-starter/master/coffeenet-starter-logging/README.md",
+      "base": "https://github.com/coffeenet/coffeenet-starter",
+      "path": "content/projects",
+      "name": "starter-logging.md",
+      "title": "CoffeeNet - Starter Logging",
+      "weight": 1
+    },
+    {
+      "url": "https://raw.githubusercontent.com/coffeenet/coffeenet-starter/master/coffeenet-starter-monitoring/README.md",
+      "base": "https://github.com/coffeenet/coffeenet-starter",
+      "path": "content/projects",
+      "name": "starter-monitoring.md",
+      "title": "CoffeeNet - Starter Monitoring",
+      "weight": 1
+    },
+    {
+      "url": "https://raw.githubusercontent.com/coffeenet/coffeenet-starter/master/coffeenet-starter-navigation-javascript/README.md",
+      "base": "https://github.com/coffeenet/coffeenet-starter",
+      "path": "content/projects",
+      "name": "starter-navigation-javascript.md",
+      "title": "CoffeeNet - Starter Navigation Javascript",
+      "weight": 1
+    },
+    {
+      "url": "https://raw.githubusercontent.com/coffeenet/coffeenet-starter/master/coffeenet-starter-navigation-thymeleaf/README.md",
+      "base": "https://github.com/coffeenet/coffeenet-starter",
+      "path": "content/projects",
+      "name": "starter-navigation-thymeleaf.md",
+      "title": "CoffeeNet - Starter Navigation Thymeleaf",
+      "weight": 1
+    },
+    {
+      "url": "https://raw.githubusercontent.com/coffeenet/coffeenet-starter/master/coffeenet-starter-security/README.md",
+      "base": "https://github.com/coffeenet/coffeenet-starter",
+      "path": "content/projects",
+      "name": "starter-security.md",
+      "title": "CoffeeNet - Starter security",
+      "weight": 1
+    },
+    {
+      "url": "https://raw.githubusercontent.com/coffeenet/coffeenet-starter/master/README.md",
+      "base": "https://github.com/coffeenet/coffeenet-starter",
+      "path": "content/projects",
+      "name": "starter-security.md",
+      "title": "CoffeeNet - Starter security",
+      "weight": 1
+    }
+  ]
+}

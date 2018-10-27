@@ -28,6 +28,7 @@ before_script:
   - git clone --branch v2 https://github.com/go-yaml/yaml $GOPATH/src/gopkg.in/yaml.v2
 
 script:
+  - "./scripts/downloader"
   - hugo
 
 after_success:
