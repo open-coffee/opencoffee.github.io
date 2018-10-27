@@ -38,7 +38,7 @@
       "path": "content/projects",
       "name": "starter-discovery.md",
       "title": "CoffeeNet - Starter Discovery",
-      "weight": 3
+      "weight": 1
     },
     {
       "url": "https://raw.githubusercontent.com/coffeenet/coffeenet-starter/master/coffeenet-starter-logging/README.md",
