@@ -1,14 +1,6 @@
 {
   "projectDescriptions": [
     {
-      "url": "https://raw.githubusercontent.com/coffeenet/coffeenet-auth/master/README.md",
-      "base": "https://github.com/coffeenet/coffeenet-auth",
-      "path": "content/projects",
-      "name": "auth-server.md",
-      "title": "CoffeeNet - Auth Server",
-      "weight": 2
-    },
-    {
       "url": "https://raw.githubusercontent.com/coffeenet/coffeenet-discovery/master/README.md",
       "base": "https://github.com/coffeenet/coffeenet-discovery",
       "path": "content/projects",
