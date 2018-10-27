@@ -33,14 +33,6 @@
       "weight": 3
     },
     {
-      "url": "https://raw.githubusercontent.com/coffeenet/coffeenet-starter/master/README.md",
-      "base": "https://github.com/coffeenet/coffeenet-starter",
-      "path": "content/projects",
-      "name": "starters.md",
-      "title": "CoffeeNet - Starters",
-      "weight": 1
-    },
-    {
       "url": "https://raw.githubusercontent.com/coffeenet/coffeenet-starter/master/coffeenet-starter-discovery/README.md",
       "base": "https://github.com/coffeenet/coffeenet-starter",
       "path": "content/projects",
