@@ -87,6 +87,14 @@
       "name": "starter-security.md",
       "title": "CoffeeNet - Starter security",
       "weight": 1
+    },
+    {
+      "url": "https://raw.githubusercontent.com/coffeenet/coffeenet-dockerized/master/README.md",
+      "base": "https://github.com/coffeenet/coffeenet-dockerized",
+      "path": "content/projects",
+      "name": "coffeenet-dockerized.md",
+      "title": "CoffeeNet - Example of the CoffeeNet architecture",
+      "weight": 4
     }
   ]
 }
