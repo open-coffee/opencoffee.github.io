@@ -16,7 +16,9 @@ const filesToCache = [
     '/projects/starter-logging/',
     '/projects/starter-navigation-javascript/',
     '/projects/starter-navigation-thymeleaf/',
-    '/projects/starter-security/'
+    '/projects/starter-security/',
+    '/projects/starter-monitoring/',
+    '/projects/coffeenet-dockerized/'
 ];
 
 self.addEventListener('install', function (e) {
