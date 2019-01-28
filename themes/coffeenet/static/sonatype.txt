@@ -1,3 +1,0 @@
-Greetz
-
-https://issues.sonatype.org/browse/OSSRH-45873
