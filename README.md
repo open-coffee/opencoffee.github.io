@@ -1,8 +1,8 @@
 [![Build Status](https://travis-ci.org/coffeenet/coffeenet.github.io.svg?branch=code)](https://travis-ci.org/coffeenet/coffeenet.github.io)
 
-# CoffeeNet Homepage
+# OpenCoffee Homepage
 
-![CoffeeNet Logo][img:logo]
+![OpenCoffee Logo][img:logo]
 
 The CoffeeNet homepage is generated with [Hugo][url:hugo].  
 Every commit to the `code` branch will be build with [travis-ci][url:travis]
